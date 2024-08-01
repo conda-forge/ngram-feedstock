@@ -7,7 +7,7 @@ Home: http://ngram.opengrm.org
 
 Package license: Apache-2.0
 
-Summary: N-Gram modeling
+Summary: N-gram modeling
 
 Documentation: http://www.opengrm.org/twiki/bin/view/GRM/NGramQuickTour
 
