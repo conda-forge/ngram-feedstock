@@ -12,7 +12,7 @@ source:
     - patches/0001-Add-CMake-files.patch  # [win]
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -24,10 +24,10 @@ requirements:
     - ninja                   # [win]
     - m2-patch                # [win]
   host:
-    - openfst ==1.8.3
+    - openfst ==1.8.4
     - dlfcn-win32             # [win]
   run:
-    - openfst ==1.8.3
+    - openfst ==1.8.4
     - ucrt                    # [win]
 
 
