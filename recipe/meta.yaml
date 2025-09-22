@@ -6,13 +6,13 @@ package:
   version: {{ version }}
 
 source:
-  url: http://www.openfst.org/twiki/pub/GRM/NGramDownload/{{ name }}-{{ version }}.tar.gz
+  url: http://206.196.111.47/twiki/pub/GRM/NGramDownload/{{ name }}-{{ version }}.tar.gz
   sha256: a5cc0fd15556f07fb463616c9a1e16687e3084f3c9944dd6c812385497ec112e
   patches:
     - patches/0001-Add-CMake-files.patch  # [win]
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -24,10 +24,10 @@ requirements:
     - ninja                   # [win]
     - m2-patch                # [win]
   host:
-    - openfst ==1.8.3
+    - openfst ==1.8.4
     - dlfcn-win32             # [win]
   run:
-    - openfst ==1.8.3
+    - openfst ==1.8.4
     - ucrt                    # [win]
 
 
